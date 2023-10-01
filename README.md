@@ -17,5 +17,5 @@ Foi feito o commit e push de todos os códigos menos os .o e o executável (arqu
 
 Por fim, era necessário fazer o merge entre as branch main e develop, para que fosse possível combinar o código da branch main com as alterações feitas na branch develop. Assim, a combinação das branchs ficou registrada na branch main.
 
-Obs.: no terminal constou como se o git merge tivesse ocorrido, mas não apareceram as alterações e a combinação na main. Tentei verificar os motivos e tentar outras coisas, mas mesmo assim não deu certo.
+#### Obs.: no terminal constou como se o git merge tivesse ocorrido, mas não apareceram as alterações e a combinação na main. Tentei verificar os motivos e tentar outras coisas, mas mesmo assim não deu certo.
 
