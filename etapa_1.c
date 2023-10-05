@@ -1,8 +1,11 @@
 
-//1° etapa do trabalho: programa onde a função main deve chamar 3 funções para
-//processar elementos double float em uma array que tem tamanho facilmente alterável
+//2° etapa do trabalho: programa onde a função main deve chamar as mesmas 3 funções,
+// mas com cada uma em um código diferente, exigindo arquivos header
 
 #include <stdio.h>
+#include "funcao1.h"
+#include "funcao2.h"
+#include "funcao3.h"
 
 int main() {
 
@@ -26,52 +29,4 @@ int main() {
     printf("\n");
 
     return 0;
-}
-
-
-//Funçaõ de multiplicação dos elementos por 3
-void multi_vetor(double array[], int tamanho) {
-
-    for (int i = 0; i < tamanho; i++) {
-        array[i] *= 3.0;
-    
-    }
-
-        printf("Resultado da multiplicacao por 3.0:\n");
-
-    for (int i = 0; i < tamanho; i++) {
-        printf("%.2lf ", array[i]);
-    }
-    printf("\n");
-    
-}
-
-//Função de divisão dos elementos por 5
-void divide_vetor(double array[], int tamanho) {
-
-    for (int i = 0; i < tamanho; i++) {
-        array[i] /= 5.0;
-    
-    }
-
-    printf("Resultado da divisao por 5:\n");
-    for (int i = 0; i < tamanho; i++) {
-        printf("%.2lf ", array[i]);
-    }
-    printf("\n");
-}
-
-//Função de multiplicação do vetor por ele mesmo
-void mesmo_vetor(double array[], int tamanho) {
-
-    for (int i = 0; i < tamanho; i++) {
-        array[i] *= array[i];
-    
-    }
-
-    printf("Resultado da multiplicacao por ele mesmo:\n");
-    for (int i = 0; i < tamanho; i++) {
-        printf("%.2lf ", array[i]);
-    }
-    printf("\n");
 }
